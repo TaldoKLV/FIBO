@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="/css/style-home.css">
+
+    <title>FIBO</title>
+</head>
+<body>
+    <header>
+        <!--Trocar as cores dos SVGs-->
+        <img id="img-menu" src="/img/menu.svg" alt="Menu">
+        <img id="img-perfil" src="/img/perfil.svg" alt="Perfil">
+        <img id="img-sino" src="/img/sino.svg" alt="Sino">
+        <img id="img-espiral" src="/img/espiral.svg" alt="Espiral fibonacci">
+        <p id="fibo">FIBO</p>
+    </header>
+    
+    <!--Saldo na conta do usuario.
+        O usuario pode decidir em qual moeda apareceraar o saldo, sempre com no minimo 3 opções-->
+    <section class="saldo-home">
+        <!--Essa img é um botão que perfil vizualizar ou ocultar o saldo-->
+        <img id="img-olho" src="/img/olho-aberto.svg" alt="">
+
+        <p class="p-saldo">Saldo</p>
+        <br>
+        <p>R$ xxx,xx</p>
+        <br>
+        <p>$ xxx,xx</p>
+        <br>
+        <p>BTC xxx,xx</p>
+        <br>
+        <a id="mais-saldo" href="">Mais opções de saldo</a>
+    </section>
+
+    <!--Campo de pesquisa e opções, sempre com no minimo 6 opções.
+        O usuaro pode decidir quais botões aparecem.-->
+    <section class="opcoes">
+        <div>
+            <label></label>
+                <img id="img-lupa" src="/img/lupa.svg" alt="">
+                <input class="pesquisa" type="text" placeholder="O que você procura?" name="pesquisa">
+        </div>
+        <div>
+            <ul>
+                <li><button><a href="">Bancos</a></button></li>
+                <li><button><a href="">Ganhos</a></button></li>
+                <li><button><a href="">Gastos</a></button></li>
+            </ul>
+        </div>
+        <br>
+        <div>
+            <ul>
+                <li><button><a href="">Corretas</a></button></li>
+                <li><button><a href="">Criptos</a></button></li>
+                <li><button><a href="">Educação</a></button></li>
+            </ul>
+            <br>
+            <a id="mais-secoes" href="">Mais seções</a>
+        </div>
+    </section>
+
+    <!--Noticias atualizadas constatemente.
+        com base no perfil do usuario, (economia, investimentos, etc)
+        scroll infinito-->
+    <section class="noticias">
+        Noticias
+    </section>
+
+
+</body>
+</html>

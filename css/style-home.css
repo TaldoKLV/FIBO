@@ -1,0 +1,137 @@
+/* Falta alinhar tudo ao centro, colocar os icones e fazer um menu */
+
+/* Tudo fica inline
+header, section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*/
+
+#img-menu {
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+}
+
+#img-perfil {
+    height: 50px;
+    width: 50px;
+    float: right;
+}
+
+#img-sino{
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+    margin-right: 20px;
+    float: right;
+}
+
+#img-olho{
+    height: 50px;
+    width: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+    float: right;
+}
+
+/* Fazer centralização da espiral e do texto */
+#img-espiral{
+    height: 50px;
+    width: 50px;
+}
+
+#fibo{
+    display: inline-block;
+    color: #35c219;
+}
+
+#img-lupa{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 8px;
+    height: 20px;
+    width: 30px;
+}
+
+header{
+    height: 60px;
+    background-color: #45E500;
+    border-radius: 0px 0px 10px 10px;
+}
+
+/* Fazer o background ficar atras de tudo para cobrir os espaços do border radios da header e da section das opções */
+.saldo-home{
+    height: 180px;
+    background-color: #84ff50;
+}
+
+.opcoes{
+    height: 300px;
+    background-color: white;
+    border-radius: 50px 50px 0px 0px;
+}
+
+.pesquisa{
+    display: block;
+    text-align: center;
+    outline: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 30px;
+    background: white;
+    border: 2px solid #C3F9AC;
+    border-radius: 20px;
+}
+
+button{
+    width: 85px;
+    height: 75px;
+    margin-left: 10px;
+    font-size: 16px;
+    background-color: #c1f5ab;
+    border: 1px solid #02C80A;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px;
+}
+
+p{
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+}
+
+.p-saldo{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#mais-saldo{
+    margin-left: 10px;
+    text-decoration: underline;
+    color: #4BB41E;
+}
+
+#mais-secoes{
+    color: grey;
+    text-decoration: underline;
+    margin-left: 210px;
+}
+
+li{
+   display: inline;
+}
+
+.noticias{
+    height: 300px;
+    border: 1px solid black;
+    text-align: center;
+}
